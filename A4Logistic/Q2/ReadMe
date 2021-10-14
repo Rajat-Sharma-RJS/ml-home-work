@@ -1,0 +1,10 @@
+$ python3 logistic_classifier.py
+Mini Batch GDA ! Hence results may vary
+Adding regularization term of 0.01
+----------------------------------------------------------------------------
+After scaling
+Max limit exceeded !
+weights : [-0.2761119  -0.03675077  0.74318495  1.01766589  0.63753744  0.33478634
+ -0.33227047  0.39793118 -0.52208172  0.3109525   0.33832357  0.36242882
+  0.84381487  0.68503776]
+Test accuracy(threshold = 0.5) : 83.52 %

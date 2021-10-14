@@ -1,0 +1,36 @@
+$ python3 batchGDA.py
+Converged, iteration : 1972617
+weights : [-4.89834567e+03  5.94516557e+00  5.50657982e+03  1.90023597e+04]
+RSS error(inverse of accuracy) : 57046821611
+
+$ python3 batchGDAscaling.py
+After Scaling
+Max limit exceeded !
+weights : [57450.01630857 12953.3356996    588.36004668 15847.7538391 ]
+RSS error(inverse of accuracy) : 94020399783
+
+$ python3 stochasticGDA.py
+Stochastic ! Hence results may vary
+Max limit exceeded !
+weights : [-4.90001585e+03  5.83540678e+00  5.49996660e+03  1.89999861e+04]
+RSS error(inverse of accuracy) : 57919780501
+
+$ python3 stochasticGDAscaling.py
+After Scaling
+Stochastic ! Hence results may vary
+Max limit exceeded !
+weights : [57404.86596871 12987.50490479  1052.26599653 15961.79791417]
+RSS error(inverse of accuracy) : 93615816012
+
+$ python3 miniBGDA.py
+Mini Batch GDA ! Hence results may vary
+Max limit exceeded !
+weights : [-4.89586545e+03  5.86712181e+00  5.48804500e+03  1.89791659e+04]
+RSS error(inverse of accuracy) : 57781901033
+
+$ python3 miniBGDAscaling.py
+After Scaling
+Mini Batch GDA ! Hence results may vary
+Max limit exceeded !
+weights : [57296.27857556 12954.01485878   583.15728282 15732.14003998]
+RSS error(inverse of accuracy) : 95054839104

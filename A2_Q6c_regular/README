@@ -1,0 +1,49 @@
+$ python3 batchGDA.py
+Without Regularization
+Converged, iteration : 1972617
+weights : [-4.89834567e+03  5.94516557e+00  5.50657982e+03  1.90023597e+04]
+RSS error(inverse of accuracy) : 57046821611
+------------------------------------------------------------------------------------
+With Regularization of 0.1
+Converged, iteration : 1848743
+weights : [-4.89826239e+03  5.94560455e+00  5.50606405e+03  1.90016057e+04]
+RSS error(inverse of accuracy) : 57048345175
+------------------------------------------------------------------------------------
+With Regularization of 0.01
+Converged, iteration : 1960827
+weights : [-4.89833572e+03  5.94520919e+00  5.50652953e+03  1.90022814e+04]
+RSS error(inverse of accuracy) : 57046973053
+
+$ python3 miniBGDA.py
+Mini Batch GDA ! Hence results may vary
+Without Regularization
+Max limit exceeded !
+weights : [-4.89592960e+03  4.87900060e+00  5.48780830e+03  1.89793793e+04]
+RSS error(inverse of accuracy) : 72299736858
+------------------------------------------------------------------------------------
+With Regularization of 0.1
+Max limit exceeded !
+weights : [-4.89494081e+03  5.65049542e+00  5.48666335e+03  1.89753979e+04]
+RSS error(inverse of accuracy) : 59848851690
+------------------------------------------------------------------------------------
+With Regularization of 0.01
+Max limit exceeded !
+weights : [-4.89601828e+03  5.56491891e+00  5.48708498e+03  1.89787098e+04]
+RSS error(inverse of accuracy) : 60822582343
+
+$ python3 stochasticGDA.py
+Stochastic ! Hence results may vary
+Without Regularization
+Max limit exceeded !
+weights : [-4.89996139e+03  6.00197283e+00  5.50016796e+03  1.90000750e+04]
+RSS error(inverse of accuracy) : 56726003671
+------------------------------------------------------------------------------------
+With Regularization of 0.1
+Max limit exceeded !
+weights : [-4.89871327e+03  5.57860606e+00  5.49863585e+03  1.89950934e+04]
+RSS error(inverse of accuracy) : 60520372691
+------------------------------------------------------------------------------------
+With Regularization of 0.01
+Max limit exceeded !
+weights : [-4.89983194e+03  6.22101918e+00  5.49998067e+03  1.89995804e+04]
+RSS error(inverse of accuracy) : 55733438987

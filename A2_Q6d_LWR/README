@@ -1,0 +1,6 @@
+$ python3 lwr.py
+rss error (tau = 1): 87350616025
+rss error (tau = 5): 91444721231
+rss error (tau = 10): 90879787025
+
+min RSS error : 86271278895 , for tau : 0.72

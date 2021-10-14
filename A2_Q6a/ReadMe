@@ -1,0 +1,13 @@
+$ python3 regularize.py
+Without Regularization
+w0 : -4894.923702349801 , w1 : 5.931012406951995 , w2 : 5528.572014996953 , w3 : 19010.01755295177
+RSS error(inverse of accuracy) : 56998176285
+With Regularization constant of 0.1
+w0 : -4880.271236238242 , w1 : 5.932224420667584 , w2 : 5530.702626411469 , w3 : 18989.116795046775
+RSS error(inverse of accuracy) : 57002882137
+With Regularization constant of 0.01
+w0 : -4893.457764178425 , w1 : 5.9311337155748936 , w2 : 5528.785647731111 , w3 : 19007.92521898487
+RSS error(inverse of accuracy) : 56998645936
+With Regularization constant of 0.001
+w0 : -4894.777101612117 , w1 : 5.931024538888019 , w2 : 5528.59338399469 , w3 : 19009.808296945586
+RSS error(inverse of accuracy) : 56998223241

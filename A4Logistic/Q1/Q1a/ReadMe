@@ -1,0 +1,31 @@
+$ python3 batchGDA.py
+Converged, iteration : 824781
+weights : [-0.00371829  0.01133069 -0.00544233]
+Test accuracy : 80.0 %
+----------------------------------------------------------------------------
+After scaling
+Max limit exceeded !
+weights : [0.98127858 1.01716431 1.01018469]
+Test accuracy : 90.0 %
+
+$ python3 stochasticGDA.py
+Stochastic ! Hence results may vary
+Max limit exceeded !
+weights : [-0.0012622   0.00974568 -0.00373841]
+Test accuracy : 80.0 %
+----------------------------------------------------------------------------
+After scaling
+Max limit exceeded !
+weights : [0.99728548 1.00247202 1.00147346]
+Test accuracy : 90.0 %
+
+$ python3 miniBGDA.py
+Mini Batch GDA ! Hence results may vary
+Max limit exceeded !
+weights : [-0.12256692  0.01254913 -0.00513472]
+Test accuracy : 76.67 %
+----------------------------------------------------------------------------
+After scaling
+Max limit exceeded !
+weights : [0.94637971 1.04387707 1.02990161]
+Test accuracy : 90.0 %

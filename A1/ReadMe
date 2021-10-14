@@ -1,0 +1,29 @@
+$ python3 webScrapingIndia.py
+Enter site name :https://traveltriangle.com
+Enter state name :himachal
+Enter no. of pages :9
+
+$ python3 webScrapingIndia.py
+Enter site name :https://traveltriangle.com
+Enter state name :kerala
+Enter no. of pages :8
+
+$ python3 webScrapingIndia.py
+Enter site name :https://traveltriangle.com
+Enter state name :kashmir
+Enter no. of pages :3
+
+$ python3 webScrapingIndia.py
+Enter site name :https://traveltriangle.com
+Enter state name :andaman
+Enter no. of pages :7
+
+$ python3 webScraping.py
+Enter site name :https://traveltriangle.com
+Enter state name :maldives
+Enter no. of pages :10
+
+$ python3 webScraping.py
+Enter site name :https://traveltriangle.com
+Enter state name :thailand
+Enter no. of pages :170

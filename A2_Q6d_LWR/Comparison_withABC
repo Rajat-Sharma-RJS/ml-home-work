@@ -1,0 +1,30 @@
+LWR :-
+min RSS error : 86271278895 , for tau : 0.72
+
+Equation solving :-
+Without Regularization :-
+RSS error(inverse of accuracy) : 56998176285
+With Regularization constant of 0.1 :-
+RSS error(inverse of accuracy) : 57002882137
+
+Batch GDA, Stochastic GDA, Mini BGDA
+Batch GDA :-
+RSS error(inverse of accuracy) : 57046821611
+After Scaling :-
+RSS error(inverse of accuracy) : 94020399783
+With Regularization of 0.1 :-
+RSS error(inverse of accuracy) : 57048345175
+
+Stochastic GDA :-
+RSS error(inverse of accuracy) : 57919780501
+After Scaling :-
+RSS error(inverse of accuracy) : 93615816012
+With Regularization of 0.1 :-
+RSS error(inverse of accuracy) : 60520372691
+
+Mini BGDA :-
+RSS error(inverse of accuracy) : 57781901033
+After Scaling :-
+RSS error(inverse of accuracy) : 95054839104
+With Regularization of 0.1 :-
+RSS error(inverse of accuracy) : 59848851690

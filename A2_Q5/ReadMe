@@ -1,0 +1,19 @@
+$ python3 linear-fit.py 
+after training with 22 days data -----
+intercept : 88.28458498023716 , slope : 2.453416149068323
+after testing the model on 9 days data ----
+residual sum of squares of errors(measure of accuracy) : 14409
+Taking complete data for training and printing the new parameters -----
+intercept : 77.85685483870967 , slope : 3.605241935483872
+Deaths on April 20, 2020 : 38  but the actaul is : 36 , error : -2
+Deaths on June 10th , 2020 : 222  but the actaul is : 279 , error : 57
+
+$ python3 quadratic-fit.py
+after training with 22 days data -----
+w0 : 88.5958498023708 , w1 : 2.3600367024280136 , w2 : 0.0044466403162057855
+after testing the model on 9 days data ----
+residual sum of squares of errors(measure of accuracy) : 13883
+Taking complete data for training and printing the new parameters -----
+w0 : 97.84310850440013 , w1 : -0.5298450298311899 , w2 : 0.13783623217716684
+Deaths on April 20, 2020 : 120  but the actaul is : 36 , error : -84
+Deaths on June 10th , 2020 : 297  but the actaul is : 279 , error : -18
