@@ -1,0 +1,4 @@
+$ python3 bernoulli.py
+Multivariate Bernoulli Event Model
+Accuracy : 0.75
+[Finished in 3598.5s]

@@ -1,0 +1,4 @@
+$ python3 multinomial.py
+Multinomial Model
+Accuracy : 0.98
+[Finished in 4645.1s]

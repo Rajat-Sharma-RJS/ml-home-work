@@ -1,0 +1,3 @@
+Naive Bayes,Accuracy,Time
+Multivariate Bernoulli Event Model,0.75 ( 75 % ),3598.5s
+Multinomial Model,0.98 ( 98 % ),4645.1s
